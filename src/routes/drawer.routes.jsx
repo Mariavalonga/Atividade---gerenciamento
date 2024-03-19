@@ -27,6 +27,7 @@ const DrawerRoutes = () => {
                 drawerInactiveTintColor: "#D6D6D6",
             }}
             />
+            
         </Drawer.Navigator>
     );
 
