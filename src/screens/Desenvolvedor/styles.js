@@ -18,18 +18,22 @@ const styles = StyleSheet.create({
     padding: 10,
     backgroundColor: "#C9D4FF",
     borderRadius: 5,
+    color: "white",
+  
   },
   text: {
     color: "white",
     textAlign: "center",
     alignItems: "center",
     marginBottom: 20,
+    
 
   },
   logoEscola: {
     width: 350,
     height: 350,
     marginRight: 10,
+    
  
   },
   title: {
@@ -38,16 +42,29 @@ const styles = StyleSheet.create({
     marginBottom: 20, 
     color: "#CD853F",
     textAlign: "center", 
+  
+
+  },
+  title2: {
+    padding: 50,
+    fontSize: 24,
+    fontWeight: "bold",
+     color: "#CD853F",
+    textAlign: "center", 
   },
  
   imagens: {
     marginRight: 10,
     marginBottom: 20,
+    width: 350,
+    height: 250,
   },
   imagens2: {
     marginRight: 10,
     marginBottom: 20,
     textAlign: "center",
+    width: 300,
+    height: 300,
   },
   imagens3: {
     width: 300,

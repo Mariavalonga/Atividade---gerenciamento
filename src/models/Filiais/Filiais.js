@@ -1,6 +1,6 @@
 import {v4 as uuidv4} from 'uuid';
 
-export class Filiais {
+export default class Filiais {
     constructor(id, nome, fundacao, quantidadeFuncionarios,
         capacidade, quantidadeTurmas, enderecoBairro, enderecoCidade,
         enderecoCep, telefone, email, responsavelNome, responsavelEmail,
@@ -9,7 +9,6 @@ export class Filiais {
             this.nome = nome;
             this.fundacao = fundacao;
             this.quantidadeFuncionarios = quantidadeFuncionarios;
-            this.capacidade = capacidade;
             this.quantidadeTurmas = quantidadeTurmas;
             this.enderecoBairro = enderecoBairro;
             this.enderecoCidade = enderecoCidade;

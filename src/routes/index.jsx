@@ -1,11 +1,11 @@
-import { NavigationContainer } from "@react-navigation/native";
+import { NavigationContainer, TabRouter } from "@react-navigation/native";
 import { StatusBar } from "expo-status-bar";
-import DrawerRoutes from "./drawer.routes";
+import TabRoutes from "./tab.routes";
 
 export default function Routes() {
     return (
         <NavigationContainer>
-            <DrawerRoutes />
+          <TabRoutes />
             <StatusBar style="auto" />
         </NavigationContainer>
     );

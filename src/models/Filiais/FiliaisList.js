@@ -16,7 +16,7 @@ export class FiliaisList {
     }
     // Update 
     updateFiliais(id, nome, fundacao, quantidadeFuncionarios,
-        capacidade, quantidadeTurmas, enderecoBairro, enderecoCidade,
+         quantidadeTurmas, enderecoBairro, enderecoCidade,
         enderecoCep, telefone, email, responsavelNome, responsavelEmail,
         responsavelCargo) {
             const filiais = this.getFiliaisById(id);
@@ -28,7 +28,6 @@ export class FiliaisList {
             filiais.nome = nome;
             filiais.fundacao = fundacao;
             filiais.quantidadeFuncionarios = quantidadeFuncionarios;
-            filiais.capacidade = capacidade;
             filiais.quantidadeTurmas = quantidadeTurmas;
             filiais.enderecoBairro = enderecoBairro;
             filiais.enderecoCidade = enderecoCidade;

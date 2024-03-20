@@ -2,12 +2,14 @@ import React from "react";
 import { View, Image, Text, ScrollView } from "react-native";
 import styles from "./styles";
 import Title from "../../components/Title";
-
+import TouchButton from "../../components/TouchButtom";
 export default function Home() {
   return (
     <ScrollView contentContainerStyle={styles.scrollViewContainer}>
       <View style={styles.container}>
-      <Title  title="Harmonia Instituto Educacional" />
+      {/* <Text style={styles.title}>
+        Harmonia Instituto Educacional
+        </Text> */}
         <Image
           style={styles.logoEscola}
           source={require('../../../assets/logoescola.png')}
@@ -58,7 +60,7 @@ A estrutura escolar engloba as instalações físicas, organização administrat
         </Text>
 
         {/* <TouchButton route="Profile" title="Go to Profile" data={user} /> */}
-        {/* <TouchButton route="Category" title="Go to Category" /> */}
+         <TouchButton route="Desenvolvedor" title="Desenvolvedor" /> 
       </View>
     </ScrollView>
   );
